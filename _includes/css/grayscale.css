@@ -162,7 +162,7 @@ a:focus {
 @media(min-width:767px) {
     .intro {
         height: 100%;
-        padding: 100;
+        padding: 0;
     }
 
     .intro .intro-body .brand-heading {
@@ -171,6 +171,11 @@ a:focus {
 
     .intro .intro-body .intro-text {
         font-size: 25px;
+    }
+    
+    .intro .container {
+    width: 100%;
+    max-width: none;
     }
 }
 
