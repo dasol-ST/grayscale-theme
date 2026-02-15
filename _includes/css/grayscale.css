@@ -61,7 +61,7 @@ p {
   line-height: 1.0;
 }
 #contact{
-  margin: 0 0 15px;
+  margin: 0 0 20px;
   line-height: 1.0;
 }
 
@@ -71,6 +71,10 @@ p {
 
 small {
     font-size: 20px;
+}
+#professor{
+  margin: 0 0 15px;
+  line-height: 1.0;
 }
 
 a {
