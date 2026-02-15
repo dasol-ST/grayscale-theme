@@ -305,8 +305,10 @@ a:focus {
 }
 
 section { padding: 200px 0; }
-#research {
-    padding: 20px 0;
+
+.page-research .content-section{
+  padding-top: 25px;   
+  padding-bottom: 25px;
 }
 
 .btn {
