@@ -71,6 +71,7 @@ a:focus {
 
 .navbar-custom .navbar-brand {
     font-weight: 700;
+    font-size: 20px;
 }
 
 .navbar-custom .navbar-brand:focus {
@@ -101,6 +102,10 @@ a:focus {
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out;
+}
+
+.navbar-custom .navbar-nav > li > a {
+    font-size: 16px;
 }
 
 .navbar-custom .nav li a:hover,
