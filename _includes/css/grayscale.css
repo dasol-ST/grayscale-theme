@@ -304,7 +304,7 @@ a:focus {
     }
 }
 
-section { padding: 150px 150px; }
+section { padding: 200px 0; }
 
 .btn {
     text-transform: uppercase;
