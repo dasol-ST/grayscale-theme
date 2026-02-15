@@ -311,7 +311,11 @@ section { padding: 200px 0; }
 #research2,
 #research3,
 #research4,
-#research5,
+#research5{
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
 #people,
 #professor{
   padding-top: 25px;
