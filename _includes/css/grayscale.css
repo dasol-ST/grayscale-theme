@@ -56,14 +56,8 @@ p {
     }
 }
 
-#professor{
-  margin: 0 0 15px;
-  line-height: 1.0;
-}
-#contact{
-  margin: 0 0 20px;
-  line-height: 1.0;
-}
+#professor p{line-height: 1.2;}
+#contact{line-height: 1.2;}
 
 .profile-info p {
     margin-bottom: 10px;
