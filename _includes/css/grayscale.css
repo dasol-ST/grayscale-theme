@@ -256,12 +256,12 @@ a:focus {
 }
 
 .content-section {
-    padding-top: 30px;
+    padding-top: 10px;
 }
 
 .download-section {
     width: 100%;
-    padding: 50px 0;
+    padding: 10px 0;
     color: #fff;
     background: url(/img/downloads-bg.jpg) no-repeat center center scroll;
     background-color: {{ site.color.primary-dark }};
@@ -279,11 +279,11 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 30px;
+        padding-top: 10px;
     }
 
     .download-section {
-        padding: 100px 0;
+        padding: 10px 0;
     }
 
     #map {
@@ -293,7 +293,7 @@ a:focus {
 }
 
 section {
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 .btn {
