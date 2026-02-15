@@ -204,10 +204,12 @@ a:focus {
     width: 20px;
     height: 20px;
     margin-top: 10px;
-    padding: 2px 5px;
+    padding: 0;
     border: 2px solid #fff;
-    border-radius: 11px;
+    border-radius: 50%;
     font-size: 13px;
+    text-align: center;
+    line-height: 20px; 
     color: #fff;
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
@@ -220,14 +222,8 @@ a:focus {
         width: 60px;
         height: 60px;
         margin-top: 30px;
-
-        padding: 0;          
-        border: 2px solid #fff;
-        border-radius: 50%;
-
         font-size: 40px;
         line-height: 60px; 
-        text-align: center;
     }
 
     .btn-circle i{
