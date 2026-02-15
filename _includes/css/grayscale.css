@@ -160,7 +160,7 @@ a:focus {
     display: table;
     width: 100%;
     height: auto;
-    padding: 100px 0;
+    padding: 0;
     text-align: center;
     color: #fff;
     background: url({{ site.baseurl }}/img/home.jpg) no-repeat bottom center scroll;
@@ -177,11 +177,11 @@ a:focus {
 }
 
 .intro .intro-body .brand-heading {
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .intro .intro-body .intro-text {
-    font-size: 20px;
+    font-size: 12px;
 }
 
 @media(min-width:767px) {
@@ -201,18 +201,30 @@ a:focus {
 }
 
 .btn-circle {
-    width: 70px;
-    height: 70px;
-    margin-top: 15px;
-    padding: 7px 16px;
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+    padding: 2px 5px;
     border: 2px solid #fff;
-    border-radius: 35px;
-    font-size: 40px;
+    border-radius: 11px;
+    font-size: 13px;
     color: #fff;
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out;
+}
+
+@media(min-width:767px) {
+    .btn-circle {
+        width: 60px;
+        height: 60px;
+        margin-top: 15px;
+        padding: 7px 16px;
+        border: 2px solid #fff;
+        border-radius: 33px;
+        font-size: 40px;
+    }
 }
 
 .btn-circle:hover,
