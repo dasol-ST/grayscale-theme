@@ -44,6 +44,10 @@ p {
     }
 }
 
+small {
+    font-size: 20px;
+}
+
 a {
     color: {{ site.color.links }};
     -webkit-transition: all .2s ease-in-out;
